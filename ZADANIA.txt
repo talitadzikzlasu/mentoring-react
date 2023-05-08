@@ -1,0 +1,26 @@
+REACT
+1) Zmień favicon na jakąs ikonę html.
+2) Przenieś element listy tagów do oddzielnego komponentu.
+3) Spraw by otwierany opis wyświetlał się w tyl samym prostokącie co tag (teraz wyświetla się w oddzielnym.
+4) Dodaj wszytskie (oprócz niezalecanych) elementy HTML i ich opisy do listy: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog
+5) Dodaj nagłówek z menu: Home, Tagi, Quiz, Kontakt
+        * RESPONSIVENESS:
+        a, b, c) big screen, desktop, tablet landscape - wyświetlaj menu na całej szerokości strony
+        d, e) tablet portrait, phone. Dodaj "hamburger menu".
+6) Dodaj logo i nazwę "podręcznik HTML" do strony, po lewo i na górze.
+        * RESPONSIVENESS:
+        d, e) na tablet portrait i phone pokazuj tylko logo
+7) Dodaj input do wyszukiwania elementów. Zaimplementuj wyszukiwanie elementów tak, by odświeżały się one na liście podczas wpisywania tekstu.
+8) Wyświetlaj tagi alfabetycznie
+
+HTML i css
+1) Usuń wypunktowanie listy tagów (kropki przed każdym rzędem)
+2) Wyśrodkuj liste na stronie, dodaj marginesy po prawej i po lewej.
+    * RESPONSIVENESS:
+    a) big screen: strona ma się wyświetlać na środku ekranu, ma mieć szerokość 1440px. Po prawej i po lewej ustał szare tło.
+    b) desktop: lista powinna mieć szerokość 70% szerokości ekranu.
+    c) tablet landscape: list powinna zajmować 70% szerokości ekranu
+    d) tablet portrait: lista powinna zajmować 80% szerokości ekranu
+    e) phone: lista powinna zajmować całą szerokość ekranu z left i right margins 4px
+
+3) Aktywny element blokowy tagu powinien mieć kolorowe tło.

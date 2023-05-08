@@ -1,0 +1,65 @@
+/* Animacja dla nagłówka tagu */
+.tag-header {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.tag-header:hover {
+  background-color: #f5f5f5;
+}
+
+.tag-header h2 {
+  margin: 0;
+}
+
+.tag-header span {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #666;
+  transition: all 0.3s ease-in-out;
+}
+
+.tag-header:hover span {
+  color: #000;
+}
+/* Animacja dla opisu tagu */
+.tag-description {
+  padding: 1rem;
+  margin-top: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.tag-description p {
+  margin: 0;
+}
+
+.tag-description a {
+  display: block;
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #666;
+  transition: all 0.3s ease-in-out;
+}
+
+.tag-description a:hover {
+  color: #000;
+}
+
+/* Animacja dla rozwijania opisu tagu */
+.tag-description.active {
+  max-height: 1000px; /* wartość powinna być większa niż wysokość największego opisu tagu */
+  transition: all 0.3s ease-in-out;
+}
